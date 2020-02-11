@@ -78,14 +78,14 @@ p, h2, h3, h4{
     margin-top: 2%; 
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 900px){
 img{
 		float: none;
 		width: 100%;
 	}
 }
 
-@media screen and (max-width: 603px){
+@media screen and (max-width: 900px){
 	nav:before{
 		height: 70px;
 	}
