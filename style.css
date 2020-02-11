@@ -83,13 +83,24 @@ img{
 		float: none;
 		width: 100%;
 	}
+nav:before{
+    height: 100px;
+}    
+ul{ 
+
+	height: 50px;
+}
+ul li a{
+	padding: 0 80px;
+	line-height: 50px; 
+}
 }
 
-@media screen and (max-width: 603px){
+/*@media screen and (max-width: 603px){
 	nav:before{
 		height: 70px;
 	}
 	nav{margin: auto;}
 
-}
+}*/
 
