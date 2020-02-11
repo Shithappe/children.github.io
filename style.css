@@ -78,7 +78,7 @@ p, h2, h3, h4{
     margin-top: 2%; 
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
 img{
 		float: none;
 		width: 100%;
