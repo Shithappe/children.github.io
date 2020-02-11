@@ -77,12 +77,9 @@ p, h2, h3, h4{
     padding: 10px; /* Поля вокруг текста */
     margin-top: 2%; 
 }
-<<<<<<< HEAD
+
 @media screen and (max-width: 1800px){
-=======
-@media screen and (max-width: 1200px){
->>>>>>> da632151fbafb70137a365bd35a8b47b8b02f39e
-	img{
+img{
 		float: none;
 		width: 100%;
 	}
