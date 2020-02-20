@@ -4,13 +4,14 @@ a:hover{
 body{
 	font-family: 'Ubuntu', sans-serif;
 }
-nav{
+
+.u nav {
 	width: 100%;
 	margin: 0 auto;
     top: 0;
     left: 350;
 }
-nav:before{
+.u nav:before {
 	content: '';
     display: block;
     height: 35px;
@@ -21,16 +22,16 @@ nav:before{
     left: 0;
     z-index: -1;
 }    
-ul{ 
+.u ul{ 
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	height: 50px;
 }
-ul li{
+.u ul li {
 	float: left;
 }
-ul li a{
+.u ul li a{
 	color: #fff;
 	display: block;
 	padding: 0 80px;
@@ -38,7 +39,7 @@ ul li a{
 	text-decoration: none;
 	line-height: 35px; 
 }
-ul li a:hover{
+.u ul li a:hover{
 	background:#ff6000;                  /*   #d43d34;#1e30b9*/ 
 }
    img { 
@@ -94,15 +95,24 @@ p, h2, h3, h4{
 	padding: 0 80px;
 	line-height: 50px; 
 	}
-/*#Ti{padding-top: 90px;}
-#Tt{padding-top: 100px;}*/
 }
-
-/*@media screen and (max-width: 603px){
-	nav:before{
-		height: 70px;
+.help ul {
+	list-style: none;   
 	}
-	nav{margin: auto;}
-
-}*/
-
+.help ul li {
+	float: left;
+}
+.help ul li a {  
+	display: block;
+	padding: 0 10px;
+	line-height: 10 px;
+	text-decoration: none;
+	 font-weight: bold;
+	 font-size: 24px;
+	}	
+}
+@media screen and (max-width: 900px){
+	.help ul li {
+	float: right;
+}
+	}
