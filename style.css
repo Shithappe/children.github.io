@@ -112,7 +112,5 @@ p, h2, h3, h4{
 	}	
 }
 @media screen and (max-width: 900px){
-	.help ul li {
-	float: right;
-}
+	.help ul li {float: right;}
 	}
